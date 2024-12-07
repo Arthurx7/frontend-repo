@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './FormCRUD.css'; // Importa la hoja de estilos
+import './FormCRUD.css'; 
 
 const FormCrud = () => {
   const [books, setBooks] = useState([]);
